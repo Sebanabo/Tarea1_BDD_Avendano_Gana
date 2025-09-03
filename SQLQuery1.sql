@@ -45,11 +45,43 @@ create table Asignacion (
 
 
 
-
-
-select
+--CONSULTAS SQL
+--1
+SELECT
     Nombre 
-from
+FROM
     Ingeniero
-where
+--WHERE
     --Tiene mas de 5 solicitudes
+
+--2
+SELECT 
+	Titulo, Fecha, Autor FROM Error
+ORDER BY 
+	DateColumn ASC; 
+
+--3
+SELECT
+	Titulo, Topico, Solicitante
+FROM
+	Funcionalidad
+WHERE
+	Ambiente like 'movil';
+
+--4
+SELECT COUNT(Titulo), Topico 
+FROM 
+	Error
+WHERE 
+	Topico in ('backend', 'seguridad', 'UX/UI')
+GROUP BY 
+	Topico
+ORDER BY COUNT(Titulo) desc;
+
+--5
+SELECT 
+	Funcionalidad.Solicitante, Funcionalidad.Topico, Error.Autor, Error.Topico
+FROM
+	Funcionalidad INNER JOIN Error
+ON
+	Funcionalidad.Topico = Error.Topico
