@@ -119,6 +119,33 @@ INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('10101018-8','J
 INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('10101019-9','Agustín Cordero','agustin.cordero@mail.com','Backend');
 INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('10101020-0','Isabel Godoy','isabel.godoy@mail.com','Seguridad');
 
+
+
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202021-1','Luis González','luis.gonzalez@mail.com','Backend,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202022-2','María Torres','maria.torres@mail.com','UX/UI,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202023-3','Felipe Navarro','felipe.navarro@mail.com','Seguridad,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202024-4','Camila Rojas','camila.rojas@mail.com','Backend,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202025-5','Andrés Salinas','andres.salinas@mail.com','Seguridad,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202026-6','Valentina Muñoz','valentina.munoz@mail.com','UX/UI,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202027-7','Tomás Herrera','tomas.herrera@mail.com','Backend,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202028-8','Fernanda Reyes','fernanda.reyes@mail.com','UX/UI,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202029-9','Gonzalo Castro','gonzalo.castro@mail.com','Seguridad,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202030-0','Daniela Fuentes','daniela.fuentes@mail.com','Backend,UX/UI');
+
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202031-1','Cristóbal Vega','cristobal.vega@mail.com','Seguridad,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202032-2','Isidora Bravo','isidora.bravo@mail.com','UX/UI,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202033-3','Rodrigo Morales','rodrigo.morales@mail.com','Backend,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202034-4','Josefa Araya','josefa.araya@mail.com','Seguridad,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202035-5','Ignacio Contreras','ignacio.contreras@mail.com','Backend,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202036-6','Claudia Espinoza','claudia.espinoza@mail.com','UX/UI,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202037-7','Sebastián Pizarro','sebastian.pizarro@mail.com','Seguridad,Backend');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202038-8','Paula Ramírez','paula.ramirez@mail.com','UX/UI,Seguridad');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202039-9','Héctor Olivares','hector.olivares@mail.com','Backend,UX/UI');
+INSERT INTO Ingeniero (RUT, Nombre, Email, Especialidad) VALUES ('20202040-0','Gabriela Cárdenas','gabriela.cardenas@mail.com','Seguridad,UX/UI');
+
+
+
+
 ----
 
 
