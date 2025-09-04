@@ -3,9 +3,7 @@
 --1
 SELECT  
     COUNT(Asignacion.id_asignacion) AS TotalAsignaciones,
-    Ingeniero.Nombre,
-    Ingeniero.RUT,
-    Asignacion.rut_ingeniero
+    Ingeniero.Nombre
 FROM  
     Asignacion INNER JOIN Ingeniero ON Asignacion.rut_ingeniero = Ingeniero.RUT
 GROUP BY  

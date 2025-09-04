@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\inserts.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inserts.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\consultas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:consultas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\tablas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tablas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "consultas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (53))",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\consultas.sql",
+              "RelativeDocumentMoniker": "consultas.sql",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\consultas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (53))",
+              "RelativeToolTip": "consultas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (53))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-04T02:15:09.966Z",
+              "EditorCaption": " - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (53))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inserts.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (52))",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\inserts.sql",
+              "RelativeDocumentMoniker": "inserts.sql",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\inserts.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (52))",
+              "RelativeToolTip": "inserts.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (52))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-04T02:14:44.758Z",
+              "EditorCaption": " - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (52))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tablas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (77))",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\tablas.sql",
+              "RelativeDocumentMoniker": "tablas.sql",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive - Universidad T\u00E9cnica Federico Santa Mar\u00EDa\\Documentos\\GitHub\\Tarea1_BDD_Avendano_Gana\\tablas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (77))",
+              "RelativeToolTip": "tablas.sql - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (77))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-04T02:14:08.876Z",
+              "EditorCaption": " - localhost\\SQLEXPRESS.master (DESKTOP-I6ITJT6\\sebas (77))"
             }
           ]
         }
