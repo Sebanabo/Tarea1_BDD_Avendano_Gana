@@ -1,8 +1,9 @@
-drop table if exists Usuario
-drop table if exists Ingeniero
-drop table if exists Funcionalidad
-drop table if exists Error
-drop table if exists Asignacion
+DROP TABLE IF EXISTS Asignacion;
+DROP TABLE IF EXISTS Error;
+DROP TABLE IF EXISTS Funcionalidad;
+DROP TABLE IF EXISTS Ingeniero;
+DROP TABLE IF EXISTS Usuario;
+
 
 
 
