@@ -16,8 +16,10 @@ HAVING
     COUNT(Asignacion.id_asignacion) > 5;
 
 --2
-SELECT 
-	Titulo, Fecha, Autor FROM Error
+SELECT TOP 10
+	Titulo, Fecha, Autor 
+FROM 
+	Error
 ORDER BY 
 	Fecha ASC; 
 
