@@ -56,7 +56,7 @@ SELECT
 FROM
 	Ingeniero
 WHERE 
-	Especialidad = 'Seguridad'
+	Especialidad LIKE '%Seguridad%';
 
 --8
 SELECT
