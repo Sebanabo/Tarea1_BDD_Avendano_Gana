@@ -1,11 +1,18 @@
 --CONSULTAS SQL
 
 --1
-SELECT 
-	COUNT(Asignacion.id_asignacion), Ingeniero.Nombre, Ingeniero.RUT, Asignacion.rut_ingeniero
-FROM
-   Asignacion INNER JOIN Ingeniero ON Asignacion.rut_ingeniero = Ingeniero.RUT
-WHERE
+SELECT  
+    COUNT(Asignacion.id_asignacion) AS TotalAsignaciones,
+    Ingeniero.Nombre,
+    Ingeniero.RUT,
+    Asignacion.rut_ingeniero
+FROM  
+    Asignacion INNER JOIN Ingeniero ON Asignacion.rut_ingeniero = Ingeniero.RUT
+GROUP BY  
+    Ingeniero.Nombre,
+    Ingeniero.RUT,
+    Asignacion.rut_ingeniero
+HAVING  
     COUNT(Asignacion.id_asignacion) > 5;
 
 --2
