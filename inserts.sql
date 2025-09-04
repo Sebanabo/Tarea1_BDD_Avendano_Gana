@@ -662,3 +662,43 @@ INSERT INTO Funcionalidad (Titulo, Ambiente, Resumen, Topico, Criterios, Solicit
 
 ----
 
+
+
+-- Asignaciones
+
+
+-- de Error
+
+
+INSERT INTO Asignacion (rut_ingeniero, titulo_error)
+SELECT rut_ingeniero, titulo_error
+FROM (
+    SELECT 
+        i.RUT AS rut_ingeniero,
+        e.Titulo AS titulo_error,
+        ROW_NUMBER() OVER (PARTITION BY e.Titulo ORDER BY NEWID()) AS rn
+    FROM Error e
+    JOIN Ingeniero i 
+        ON i.Especialidad LIKE '%' + e.Topico + '%'
+) t
+WHERE rn <= 3;
+
+
+-- de Funcionalidad
+
+
+INSERT INTO Asignacion (rut_ingeniero, titulo_funcionalidad)
+SELECT rut_ingeniero, titulo_funcionalidad
+FROM (
+    SELECT 
+        i.RUT AS rut_ingeniero,
+        f.Titulo AS titulo_funcionalidad,
+        ROW_NUMBER() OVER (PARTITION BY f.Titulo ORDER BY NEWID()) AS rn
+    FROM Funcionalidad f
+    JOIN Ingeniero i 
+        ON i.Especialidad LIKE '%' + f.Topico + '%'
+) t
+WHERE rn <= 3;
+
+
+
