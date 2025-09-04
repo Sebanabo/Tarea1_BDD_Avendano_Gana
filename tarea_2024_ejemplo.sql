@@ -143,11 +143,11 @@ where
     id_deportista in (select id_deportista from RESULTADOS where medalla IS NOT NULL)
 
 
-8--
+--8
 
 
 
-13--
+--13
 update
     DEPORTISTA
 set
