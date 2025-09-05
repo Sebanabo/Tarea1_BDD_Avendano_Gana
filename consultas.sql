@@ -50,21 +50,12 @@ ON
 
 --6
 --Esperando respuesta de los ayudantes     POR LO QUE ESTA SUJETO A CAMBIO
-select * -- Muestra de como eran antes
-from Error
-WHERE 
-    Fecha < '2022-09-03';
 UPDATE 
     Error -- RECORDAR QUE DEBE SER DE FUNCIONALIDAD, ahora usamos Error como prueba, porque Funcionalidad no tiene atributo Fecha, aunque se lo podemos a�adir luego
 SET 
     Estado = 'Archivado'
 WHERE 
     Fecha < '2022-09-03'; -- tambien podria ser WHERE YEAR(Fecha) < 2022; aunque esta opcion no tiene en cuenta mes ni dia
-
-select * -- Muestra de que fueron archivados
-from Error
-WHERE 
-    Fecha < '2022-09-03';
 
 --7
 SELECT
@@ -93,3 +84,24 @@ SELECT
 
 
 --10
+DELETE FROM 
+	Asignacion
+WHERE titulo_error IN (
+  SELECT 
+	Titulo
+  FROM 
+  	Error
+  WHERE 
+	Fecha < '2020-09-03'
+);
+
+DELETE FROM
+	Error
+WHERE
+	Fecha < '2020-09-03';	
+
+
+
+
+
+
