@@ -27,13 +27,14 @@ create table Funcionalidad (
 	Topico varchar(15) NOT NULL,
 	Criterios varchar(100) NOT NULL,
 	Solicitante varchar(50) NOT NULL,
-	Estado varchar(12)
+	Estado varchar(12),
+	Fecha date NOT NULL
 );
 
 create table Error (
     Titulo varchar(100) primary key,
 	Descripcion varchar(200) NOT NULL,
-	Fecha date NOT NULL,
+	Fecha varchar(10) NOT NULL,
 	Topico varchar(15) NOT NULL,
 	Autor varchar(50) NOT NULL,
 	Estado varchar(12)
