@@ -4,8 +4,9 @@ SELECT
 FROM
 	Error
 WHERE 
-    Fecha < '2022-09-03';
-
+    Fecha < '2022-09-03'
+ORDER BY
+	Fecha ASC;
 --AUX 10
 SELECT
 	Titulo, Fecha
