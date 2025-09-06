@@ -31,13 +31,13 @@ WHERE
 
 --4
 SELECT 
-	COUNT(Titulo), Topico 
+	COUNT(Titulo) AS CantidadErrores, Topico 
 FROM 
 	Error
 GROUP BY 
 	Topico
 HAVING 
-	COUNT(Titulo) > 5 
+	COUNT(Titulo) > 10 
 ORDER BY COUNT(Titulo) desc;
 
 --5
