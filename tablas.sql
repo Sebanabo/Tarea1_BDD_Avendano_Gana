@@ -34,7 +34,7 @@ create table Funcionalidad (
 create table Error (
     Titulo varchar(100) primary key,
 	Descripcion varchar(200) NOT NULL,
-	Fecha varchar(10) NOT NULL,
+	Fecha DATE NOT NULL,
 	Topico varchar(15) NOT NULL,
 	Autor varchar(50) NOT NULL,
 	Estado varchar(12)
