@@ -14,3 +14,11 @@ FROM
 	Error
 ORDER BY
 	Fecha ASC;
+
+--AUX CANTIDAD DE SOLICITUDES POR DÍA
+SELECT
+	Autor, Fecha
+FROM
+	Error
+GROUP BY
+	Autor, Fecha
